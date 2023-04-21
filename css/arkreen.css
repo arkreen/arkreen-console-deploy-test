@@ -1,0 +1,143 @@
+.ant-layout .ant-layout-sider {
+    transition:none !important;
+}
+
+.ant-tag {
+    margin-inline-end: 0px !important;
+}
+
+.ant-input-affix-wrapper:hover {
+    border-color: #F6F6F9 !important;
+    border-inline-end-width: 0px !important;
+}
+
+.ant-input-affix-wrapper-focused {
+    box-shadow: 0 0 0 2px rgba(0, 145, 5, 0.1);
+}
+
+.arkreen-404-title {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #101020;
+    padding: 8px;
+}
+
+.arkreen-404-btn {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #00913A;
+    padding: 8px;
+}
+
+.arkreen-404-back {
+    color: #00913A;
+    border: 1px solid #00913A;
+    border-radius: 16px;
+    align-items: center;
+    padding: 5px 16px;
+}
+
+.arkreen-404-back:hover {
+    color: #00913A !important;
+    border: 1px solid #00913A !important;
+    background-color: #E6F4EB;
+}
+
+.ant-table-thead .ant-table-cell {
+    color: #707079 !important;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th, .ant-table-wrapper .ant-table-thead >tr>td {
+    background: #FFFFFF !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before, .ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+    .arkreen-404 {
+        text-align: center;
+        gap: 4px;
+        padding: 16px 16px 16px 16px;
+        margin-top: 20%;
+    }
+    .arkreen-404-info{
+        font-weight: 400;
+        font-size: 14px;
+        text-align:center;
+        padding: 8px;
+    }
+    .arkreen-select-group {
+        display:flex;
+    }
+    .arkreen-select-item {
+        width: 50%;
+        float: left;
+    }
+    .arkreen-select-padding-left {
+        padding-left: 6px;
+    }
+    .arkreen-select-padding-right {
+        padding-right: 6px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .arkreen-main-content {
+        background-color:#FFFFFF;
+        padding:16px 16px 16px 16px;
+    }
+
+    .arkreen-404 {
+        width:100%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .arkreen-404-info{
+        font-weight: 400;
+        font-size: 14px;
+        text-align:center;
+        padding: 8px;
+    }
+    .arkreen-select-group {
+        display:flex;
+        padding-bottom: 6px;
+    }
+    .arkreen-select-item {
+        float: left;
+        padding-inline-end: 16px;
+    }
+}
+
+
+/* 设置浏览器滚动条的样式 */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  /* 滚动槽 */
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.0);
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.0);
+  }
+  
